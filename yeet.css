@@ -1,0 +1,96 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.large-text{
+    font-size: 100px;
+    }
+    .small-text{
+    font-size: 30px;
+    }
+    .upper-left {
+        position: absolute;
+        top: 0;
+        left: 0;
+    
+    }
+    .upper-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .upper-middle {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    .row1{
+        font-family: Times New Roman;
+        font-size: medium;
+    }
+    .row2{
+        font-family:Old English Text MT;
+        font-size:xx-large;
+        color: rgb(35, 112, 12);
+    }
+        .row3{
+            font-family: Copperplate Gothic Light;
+            font-size: large;
+        }
+            .row4{
+                font-family:  Calibri Light sans-serif;
+                font-size: medium;
+            }
+                .row5{
+                    font-family: Times New Roman;
+                    font-size: small;
+                }
+    .upper-left img {
+        max-width: 200px;
+        max-height: 200px;
+        width: 100px;
+        height: 100px;
+    }
+    .upper-right img {
+        max-width: 200px;
+        max-height: 200px;
+        width: 100px;
+        height: 100px;
+    }
+            .container {
+                position: relative;
+                width: 20px;
+                height: 200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 70px 0 0;
+                position: relative;        }
+            
+            .text {
+                margin-left: 20px;
+            }
+            .woah {
+                font-style: italic;
+                font-weight: bold;
+            }
+            .boldonly {
+                font-weight: bold;
+            }
+            ol {
+                margin: 20px 0;
+                padding-left: 20px;
+            }
+            
+            ul {
+                margin: 20px 0;
+                padding-left: 20px;
+            }
+            
+            li {
+                margin-bottom: 10px;
+            }
