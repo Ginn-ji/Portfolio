@@ -8,12 +8,12 @@
 }
 
 body {
-    background: #000000;
+    background: rgb(255, 241, 248);
     color: #020a0a;
 }
 
 .header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -26,10 +26,12 @@ body {
 }
 
 .logo {
+    position: relative;
     font-size: 25px;
     color: #f0f0f0;
     text-decoration: none;
     font-weight: 600;
+    left: 5%;
 }
 
 .navbar a {
@@ -47,36 +49,11 @@ body {
 }
 
 .home {
-    position: relative;
-	width: 50%;
-	height: 200px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 70px 10% 0;
-    position: relative;
     width: 100%;
-    height: 100vh;
-    background: url('24.jpg');
+    height: 60px; 
+    background: url('24.jpg') no-repeat center center;
     background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    .circle-image {
-		max-width: 450px;
-		max-height: 450px;
-		width: 450px;
-		height: 450px;
-		border-radius: 50%;
-		overflow: hidden;
-	}
-	.circle-image img {
-		width: 450px;
-		height: 450px;
-		object-fit: fill;
-	}
+
 }
 .home-img img{
 	max-width: 450px;
@@ -92,23 +69,37 @@ body {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.2;
-    color: #f0f0f0;
+    color: #000000;
 }
 
 .home-content h4 {
     font-size: 32px;
     font-weight: 700;
-    color: #cdb8ce;
+    color: #000000;
 }
 
 .home-content p {
     font-size: 16px;
     margin: 20px 0 40px;
-    color: cornsilk;
+    color: rgb(0, 0, 0);
 }
 
-
-
+.content a {
+    display: block;
+    padding: 12px 28px;
+    background: rgb(80, 91, 92);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(77, 86, 87);
+    font-size: 16px;
+    color: #423a3a;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: 7px;
+}
 
 .home-content a {
     display: inline-block;
@@ -144,7 +135,7 @@ body {
     
     }
     .home-sci {
-    position: absolute;
+    position:relative;
     bottom: 40px;
     width: 170px;
     display: flex;
@@ -184,10 +175,13 @@ body {
     .home-sci a:hover::before {
     width: 100%
     }
-
-.circle-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-}
+    .video-container {
+        width: 40%; /* Adjust the width as needed */
+        margin: 0 auto; /* Center the video horizontally */
+        float: right;
+    }
+    
+    .video-container video {
+        width: 100%; /* Make the video fill the container width */
+        height: auto; /* Maintain aspect ratio */
+    }
